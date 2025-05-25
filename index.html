@@ -12,68 +12,44 @@
 </head>
 <body>
     <nav class="navbar">
-        <div class="container-fluid">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="" onClick="alert('coming soon')">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="" onClick="alert('coming soon')">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="" onClick="alert('coming soon')">Committees</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="" onClick="alert('coming soon')">Register</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="" onClick="alert('coming soon')">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-
-    <div class="logo-container">
-        <img src="chmunlogo.png" alt="CHMUN Logo" class="logo">
+    <div class="container-fluid">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="#" onclick="alert('coming soon')">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#" onclick="alert('coming soon')">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#" onclick="alert('coming soon')">Committees</a></li>
+        <li class="nav-item"><a class="nav-link" href="#" onclick="alert('coming soon')">Register</a></li>
+        <li class="nav-item"><a class="nav-link" href="#" onclick="alert('coming soon')">Contact</a></li>
+      </ul>
     </div>
-    <div class="title-text">
-        <span style="--tx:1">C</span>
-        <span style="--tx:2">H</span>
-        <span style="--tx:3">M</span>
-        <span style="--tx:4">U</span>
-        <span style="--tx:5">N</span>
-        <span style="--tx:6">'</span>
-        <span style="--tx:7">2</span>
-        <span style="--tx:8">5</span>
-    </div>
+  </nav>
 
-    <div class="scroll-arrow" onclick="showLetter()">↓</div>
+  <div class="logo-container">
+    <img src="chmunlogo.png" alt="CHMUN Logo" class="logo" />
+  </div>
 
-    <section class="principal-letter" id="principalLetter">
-        <h2>Letter from the Principal</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-        <p>Fusce eros odio, consectetur ut tellus sed, interdum bibendum nulla. Pellentesque consequat ac orci a pharetra. Donec gravida nisi diam, sit amet imperdiet nunc venenatis quis.</p>
-        <p>Pellentesque id justo non tortor elementum congue a sed nisl. Etiam lobortis ultrices interdum. Vestibulum eu nisi vitae nunc sagittis finibus vel vel massa. Vivamus dolor nisi, maximus non purus eu, luctus semper orci. Integer metus neque, interdum vel dictum in, egestas et dui.</p>
-        <p>Sed sollicitudin viverra auctor. Mauris vulputate ultrices lectus a elementum. Fusce posuere, justo nec scelerisque maximus, nunc purus vehicula risus, sed auctor neque nunc et odio. Pellentesque venenatis at quam sit amet facilisis. Vivamus sed odio sit amet ante tincidunt lobortis ultrices nec sem. </p>
-        <div class="subscription">
-            <p>Best regards,</p>
-            <p>(Principal’s Name)</p>
-            <p>Principal, Chrysalis High</p>
-        </div>
-    </section>
-    <section class="secretary-letter" id="secretaryLetter">
-        <h2>Letter from the Secretary General</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-        <p>Fusce eros odio, consectetur ut tellus sed, interdum bibendum nulla. Pellentesque consequat ac orci a pharetra. Donec gravida nisi diam, sit amet imperdiet nunc venenatis quis.</p>
-        <p>Pellentesque id justo non tortor elementum congue a sed nisl. Etiam lobortis ultrices interdum. Vestibulum eu nisi vitae nunc sagittis finibus vel vel massa. Vivamus dolor nisi, maximus non purus eu, luctus semper orci. Integer metus neque, interdum vel dictum in, egestas et dui.</p>
-        <p>Sed sollicitudin viverra auctor. Mauris vulputate ultrices lectus a elementum. Fusce posuere, justo nec scelerisque maximus, nunc purus vehicula risus, sed auctor neque nunc et odio. Pellentesque venenatis at quam sit amet facilisis. Vivamus sed odio sit amet ante tincidunt lobortis ultrices nec sem. </p>
-        <div class="subscription">
-            <p>Best regards,</p>
-            <p>(Secretary General’s Name)</p>
-            <p>Secretary General, CHMUN 2025</p>
-        </div>
-    </section>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <div class="title-text">
+    <span style="--tx:1">C</span>
+    <span style="--tx:2">H</span>
+    <span style="--tx:3">M</span>
+    <span style="--tx:4">U</span>
+    <span style="--tx:5">N</span>
+    <span style="--tx:6">'</span>
+    <span style="--tx:7">2</span>
+    <span style="--tx:8">5</span>
+  </div>
+
+  <div class="scroll-arrow" onclick="showAbout()">↓</div>
+
+  <!-- Hidden About Section -->
+  <section id="aboutSection">
+    <h6>ABOUT</h6>
+    <h1 id="demo">        
+    </h1>
+    <h1>      <span id="demo2" class="highlight"></span>
+</h1>
+  </section>
+
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="action.js"></script>
 </body>
 </html>
