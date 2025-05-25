@@ -31,6 +31,139 @@
     .nav-link:hover {
       color: #ffcc00 !important;
     }
+.hero-section-aippm {
+    background-image: url("aippm.avif"); /* Replace with actual path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    padding: 2rem;
+}
+.hero-section-disec {
+    background-image: url("explosion-67557_1280.jpg"); /* Replace with actual path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    padding: 2rem;
+}
+.hero-section-ccc {
+    background-image: url("premium_photo-1716078137428-aabec80b2c34.jpeg"); /* Replace with actual path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    padding: 2rem;
+}
+.hero-section-unhrc {
+    background-image: url("2021-01-15T143845Z_184901794_RC2E8L9X9L3Z_RTRMADP_3_UN-RIGHTS.jpg.webp"); /* Replace with actual path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    padding: 2rem;
+}
+.hero-section-unodc {
+    background-image: url("photo-1607619056574-7b8d3ee536b2.jpeg"); /* Replace with actual path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    padding: 2rem;
+}
+.hero-section-unsc {
+    background-image: url("1e89b9_d0e872fe6598465bbe65512e73c7cb53~mv2.jpg.avif"); /* Replace with actual path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    padding: 2rem;
+}
+
+.hero-overlay {
+    background: rgba(0, 0, 0, 0.4); /* Optional dark overlay for contrast */
+    padding: 2rem;
+    border-radius: 8px;
+    max-width: 600px;
+}
+
+.hero-subtitle {
+    font-family: "Georgia", serif;
+    font-style: italic;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.hero-title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 4rem;
+    font-weight: 800;
+    margin: 0 0 1rem 0;
+}
+
+.hero-description {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.hero-button {
+    display: inline-flex;
+    align-items: center;
+    background-color: #e6e6f2;
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
+}
+
+.hero-button:hover {
+    background-color: #ccccdd;
+}
+
     .navbar-nav {
       display: flex;
       flex-direction: row;
