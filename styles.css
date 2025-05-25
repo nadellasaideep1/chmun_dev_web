@@ -1,0 +1,141 @@
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            min-height: 100vh;
+            overflow: hidden;
+            background-color: #000;
+            background-size: 100% 100%; 
+            background-repeat: no-repeat;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            color: white;
+            font-family: 'Arial', sans-serif;
+            padding-top: 70px;
+        }
+        .navbar {
+            width: 100%;
+            background-color: #000;
+            position: fixed;
+            top: 0;
+            z-index: 1000; 
+        }
+        .nav-link {
+            color: white !important;
+            font-weight: bold;
+        }
+        .nav-link:hover {
+            color: #ffcc00 !important;
+        }
+        .navbar-nav {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            width: 100%;
+        }
+        .nav-item {
+            margin: 0 2em;
+        }
+        .logo-container {
+            text-align: center;
+            margin-bottom: 1em;
+        }
+        .logo {
+            max-width: 190px;
+            width: 100%;
+            margin-bottom: -70px;
+            border-radius: 50%;
+        }
+        .title-text {
+            font-size: 16vw;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 800; 
+            text-align: center;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+            margin-left: -5px;
+            letter-spacing: -0.13em;
+            white-space: nowrap;
+        }
+        .title-text span {
+            display: inline-block;
+            animation: wiggle 0.8s ease-in-out forwards;
+            animation-delay: calc(0.1s * var(--tx));
+        }
+        @keyframes wiggle {
+            0% { transform: translateY(0) rotate(0deg); }
+            25% { transform: translateY(-10px) rotate(5deg); }
+            50% { transform: translateY(10px) rotate(-5deg); }
+            75% { transform: translateY(-5px) rotate(2deg); }
+            100% { transform: translateY(0) rotate(0deg); }
+        }
+        .scroll-arrow {
+            font-size: 2em;
+            color: white;
+            cursor: pointer;
+            margin: 2em 0;
+            margin-top: -5px;
+            transition: transform 0.3s;
+        }
+        .scroll-arrow:hover {
+            transform: translateY(10px);
+        }
+        .principal-letter, .secretary-letter {
+            display: none;
+            background-color: #e6d5b8;
+            background-image: url('https://www.transparenttextures.com/patterns/paper-fibers.png');
+            color: #333;
+            max-width: 800px;
+            width: 90%;
+            margin: 10vh 0 2em;
+            padding: 3em 2em;
+            border: 1px solid #d4d4d4;
+            border-radius: 8px;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3), -5px -5px 15px rgba(255, 255, 255, 0.1);
+            transform: rotate(0deg);
+            font-family: 'Georgia', serif;
+            line-height: 1.6;
+            position: relative;
+        }
+        .principal-letter h2, .secretary-letter h2 {
+            font-size: 1.3em;
+            margin-bottom: 1em;
+            color: #003087;
+        }
+        .principal-letter {
+            margin-top: -1px;
+            margin-bottom: -0.5px;
+        }
+        .principal-letter p, .secretary-letter p {
+            margin-bottom: 1em;
+        }
+        .principal-letter .subscription, .secretary-letter .subscription {
+            margin-top: 2em;
+            font-family: 'Dancing Script', cursive;
+            font-size: 1.5em;
+            color: #003087;
+            text-align: right;
+        }
+        .principal-letter .subscription p, .secretary-letter .subscription p {
+            margin: 0.3em 0;
+        }
+        @media (max-width: 768px) {
+            .title-text {
+                font-size: 12vw;
+            }
+            .nav-item {
+                margin: 0 1em;
+                font-size: 0.9em;
+            }
+            .logo {
+                max-width: 150px;
+            }
+            .principal-letter, .secretary-letter {
+                padding: 2em 1.5em;
+                transform: rotate(0deg);
+                margin-top: 5vh;
+            }
+        }
